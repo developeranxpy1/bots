@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.2.6-3",
+    "lastTouchedAt": "2026-02-08T06:32:08.547Z"
+  },
+  "wizard": {
+    "lastRunAt": "2026-02-08T06:31:31.146Z",
+    "lastRunVersion": "2026.2.6-3",
+    "lastRunCommand": "configure",
+    "lastRunMode": "local"
+  },
+  "auth": {
+    "profiles": {
+      "google-antigravity:tz150ss1234@gmail.com": {
+        "provider": "google-antigravity",
+        "mode": "oauth",
+        "email": "tz150ss1234@gmail.com"
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "google-antigravity/gemini-3-flash",
+        "fallbacks": [
+          "google-antigravity/claude-opus-4-6-thinking"
+        ]
+      },
+      "models": {
+        "google-antigravity/claude-opus-4-6-thinking": {},
+        "google-antigravity/gemini-3-flash": {}
+      },
+      "maxConcurrent": 4,
+      "subagents": {
+        "maxConcurrent": 8
+      }
+    }
+  },
+  "messages": {
+    "ackReactionScope": "group-mentions",
+    "tts": {
+      "provider": "elevenlabs",
+      "elevenlabs": {
+        "voiceId": "pMsXgVXv3BLzUgSXRplE"
+      }
+    }
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto"
+  },
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "dmPolicy": "open",
+      "botToken": "8554311422:AAEv7jtK56Eng-iC_WMaRnEquSx3444lJdY",
+      "allowFrom": [
+        "*"
+      ],
+      "groupPolicy": "allowlist",
+      "streamMode": "partial"
+    }
+  },
+  "gateway": {
+    "port": 18789,
+    "mode": "local",
+    "bind": "loopback",
+    "auth": {
+      "mode": "token",
+      "token": "openclaw",
+      "password": "731235"
+    },
+    "tailscale": {
+      "mode": "off",
+      "resetOnExit": false
+    }
+  },
+  "plugins": {
+    "entries": {
+      "whatsapp": {
+        "enabled": true
+      },
+      "google-antigravity-auth": {
+        "enabled": true
+      },
+      "telegram": {
+        "enabled": true
+      }
+    }
+  }
+}
