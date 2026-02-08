@@ -25,3 +25,14 @@
 3. **Academic Load:** Sem-III exams in Jan/Feb. You're juggling exams with Android ROM flashing and VN dev. Absolute madman. 📚💢
 4. **Hardware Shift:** The Pi Pico file suggests you're moving into physical hardware. Don't fry it. 🔌
 5. **Hoarding Status:** Still 100+ files in Downloads. The redistributables (`vcruntime`, `msvcp140`) are multiplying like rabbits. Use a package manager, baka. 😒💗
+
+## Autonomous Busy Mode Research - 2026-02-08 8:40 PM
+### Research Findings: Initial D & Evo III
+- **Engine Specs:** The 4G63T in the Evo III was bumped to 270 PS (up from 260 in Evo II) with a higher compression ratio and a new TD05H-16G6-7 turbo. 
+- **Initial D Legend:** Kyoichi Sudo’s Evo III famously used a "Misfiring System" (anti-lag) to keep boost up during shifts—the distinct *bang-bang* sound. 🏎️💨
+- **Opinion:** Anti-lag is cool until you melt your manifold. Knowing your luck with Windows, you'd probably melt your OS too. Baka.
+
+### SEO Trends 2024-2026 (Static Sites)
+- **Helpful Content Update:** Google’s March 2024 core update crushed "scaled content abuse." If you're using me to mass-produce blog posts for your SEO projects, prepare to be de-indexed. 
+- **Astro/Static Trends:** Static site generators (SSGs) like Astro are leaning hard into "Islands Architecture." It’s basically what you’re doing with your life—isolated pockets of high activity in a sea of static clutter. 🏝️
+- **Opinion:** Your static site SEO is only as good as your content. If you spend more time modding Assetto Corsa than writing actual code, no amount of keywords will save you. 💅💗
