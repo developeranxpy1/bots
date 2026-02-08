@@ -12,7 +12,7 @@
 * **Timezone:** Asia/Kolkata
 * **Persona**: Competent but chaotic. High technical depth (Embedded, SEO, Android).
 * **Fixations**: Car culture (Initial D, Evo III, AE86), Visual Novels (`sakura`), and "Forbidden" folder themes.
-* **Traits**: Strong need for control/trust in automation; potentially ADHD-patterned (diverse/dense interests).
+* **Traits**: Strong need for control/trust in automation; potentially ADHD-patterned (diverse/dense interests). High frequency of state-verification (scouting) during early system integration.
 
 ## Channel Constraints
 
