@@ -1,0 +1,15 @@
+# Ignore large data dumps and media
+userhabits.json
+*.jpg
+*.png
+*.webp
+*.lnk
+
+# Node stuff if it ever appears
+node_modules/
+dist/
+.env
+
+# Windows system files if any
+Thumbs.db
+desktop.ini
